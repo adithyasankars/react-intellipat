@@ -12,11 +12,37 @@
 // console.log(y);
 // console.log(z);
 
-const greetPersonOld = function(name){
-    return "Hello " + name;
+// -------------------------------------------------------------------------------------------------
+
+// const greetPersonOld = function(name){
+//     return "Hello " + name;
+// }
+
+// const greetPerson = name => 'Hello ' + name;
+
+// console.log(greetPersonOld('John'));
+// console.log(greetPerson('Jane'));
+
+// ----------------------------------------------------------------------------
+
+function sampleOld (){
+    console.log("Building Old Object");
+};
+
+sampleOld.prototype.printHello = function (){
+    console.log("Hello");
 }
 
-const greetPerson = name => 'Hello ' + name;
+const oldObject = new sampleOld();
+oldObject.printHello();
+class sample {
+    constructor(){
+        console.log("Building Objects");
+    }
+    printHello(){
+       console.log("Hello");
+    }
+}
 
-console.log(greetPersonOld('John'));
-console.log(greetPerson('Jane'));
+const hello = new sample();
+hello.printHello();
