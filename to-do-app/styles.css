@@ -76,6 +76,31 @@
     
  }
 
+ /* ul li::before{
+   content: '';
+   position: absolute;
+   height: 28px;
+   width: 28px;
+   border-radius: 50%;
+   background-image: url(img/unchecked.png);
+   background-size: cover;
+   background-position: center;
+   top: 12px;
+   left: 8px;
+} */
+
+ul li::before{
+   background-image: url(img/unchecked.png);
+   position: absolute;
+   height: 28px;
+   width: 28px;
+   content: '';
+   top:12px;
+   left: 8px;
+   background-size: cover;
+   background-position: center;
+}
+
 
 
 
