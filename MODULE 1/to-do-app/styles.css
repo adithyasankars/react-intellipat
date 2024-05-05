@@ -76,6 +76,7 @@
     
  }
 
+<<<<<<< HEAD:MODULE 1/to-do-app/styles.css
  /* ul li::before{
    content: '';
    position: absolute;
@@ -90,6 +91,9 @@
 } */
 
 ul li::before{
+=======
+ ul li::before{
+>>>>>>> af5e7a0e871e86272507055a25fabd260484fab4:to-do-app/styles.css
    background-image: url(img/unchecked.png);
    position: absolute;
    height: 28px;
@@ -126,6 +130,12 @@ ul li span{
 ul li span:hover{
    background: #edeef0;
 }
+<<<<<<< HEAD:MODULE 1/to-do-app/styles.css
+=======
+
+ 
+
+>>>>>>> af5e7a0e871e86272507055a25fabd260484fab4:to-do-app/styles.css
 
 
 
